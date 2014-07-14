@@ -41,6 +41,7 @@ We follow the jQuery convention on how to write javascript except the 2 spaces f
 
 Please follow, the [Sitecore guideline](speak.md) to structure your SPEAK application and name your layout, items correctly. 
 
+For more information about SPEAK specific, please read our [speak page guideline](page.md) and our [speak component guideline](component.md)
 
 ###Project Worfkflow
 
