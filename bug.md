@@ -17,7 +17,7 @@ e.g. If poll request starts working again, it recovers. Otherwise, it sends many
 - OS.
 - Current Project
 
-e.g. Sitecore 8.0 rev. 140623, SPEAK 1.3 rev. 15054, IE 11, Windows 8.1. Project Nerva
+e.g. Sitecore 8.0 rev. 140623, SPEAK 1.3 rev. 15054, IE 11, Windows 8.1. Project XXX
 
 ### Minimal repro steps
 *What is the smallest, simplest set of steps to reproduce the issue. If needed, provide a project that demonstrates the issue.*  

@@ -8,7 +8,7 @@ Those lines are also an "open" and subject to changes. You are welcome to raise 
 
 **Disclaimer**
 
-Note that this guidelines are new and some part of the current code could not reflect what is described below. If it is the case, it would be kind to you to re-format it following the guidelines.
+Note that this guideline is new and some part of the current is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.
 
 ##Filling Issues
 
