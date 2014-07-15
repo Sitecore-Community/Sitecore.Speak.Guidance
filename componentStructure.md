@@ -1,4 +1,4 @@
-###Global Structure.
+###SPEAK Component Structure.
 
 When creating your component, under the common folder, you need to re-create the same structure as the BCL structure. Only create folders if you have component inside.
 
