@@ -1,5 +1,7 @@
 ###Global Structure.
 
+When creating your component, under the common folder, you need to re-create the same structure as the BCL structure. Only create folders if you have component inside.
+
 ![](component-tree.png)
 
 Use common sense to place your components in the different folder. Only create the folder if you need it.
