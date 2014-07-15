@@ -101,3 +101,17 @@ TO BE DONE
 ##FAQ
 
 PLease refer to [link to FAQ]
+
+##SPEAK Team and Resources
+
+###Internal Contact Point
+
+TBD
+
+###External Contact Point
+
+TBD
+
+###Team members
+
+TBD
