@@ -24,7 +24,7 @@ All the files related to a component **must** have the same name and same case.
 
 All Items related to the component containing the Name should also be PascalCase.
 
-If the component is brand new and has not relation with an existing one, please try to give it a meaningful name.
+If the component is brand new and has no relation with an existing one, please try to give it a meaningful name.
 
 If the component is an extension of an existing component in the BCL, you should name **[app_name]NameOfTheComponent**
 
@@ -86,4 +86,3 @@ Use the ```is-``` prefix for state rules that are shared between CSS and JS.
 ### C# 
 
 For C# part, please refer to the Sitecore guidelines.
-

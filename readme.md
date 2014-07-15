@@ -6,9 +6,25 @@ Those guidelines must be strictly followed by the people who wants to collaborat
 
 This guideline is a living guideline and is open to suggestions and improvements. You are welcome to raise issues and propose your pull-requests for the SPEAK collaboration guidelines.
 
+**Acronym**
+
+SPEAK is an acronym for Sitecore Process Enable Accelerator Kit.
+BCL is an acronym for Business Component Library.
+
+
+**SPEAK typo**
+
+When writing about SPEAK, you should always use capital case. On social media, "SPEAKui" is also acceptable to refer to the SPEAK twitter account.
+
+There are exceptions to that rule.
+
+- In Javascript, the variable will be called Speak (PascalCase) even if it is an acronym because in JavaScript full capital case for a variable or a name-space means a constant (like Math.PI).
+- When naming our layouts or items in SPEAK, we have also used the PascalCase notation. As we found that SPEAK-layout was an ugly name, we went for Speak-layout. Normally only the SPEAK project and the BCL should have items containing the name SPEAK.
+
+
 **Disclaimer**
 
-Note that this guideline is new and some part of the current is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.
+This guideline is new and some part of the current is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.
 
 ##Filling Issues
 
@@ -29,15 +45,15 @@ When filling issues, please follow [the bug filling templates](/bug.md). The bes
 
 **SPEAK component**
 
-Please read our [speak component guideline](component.md)
+Please read our [SPEAK component guideline](component.md)
 
 **SPEAK page**
 
-Please read our [speak page guideline](page.md)
+Please read our [SPEAK page guideline](page.md)
 
 **SPEAK application**
 
-Please follow, the [Sitecore Business Application guideline](speak.md) to structure your SPEAK application and name your layout, items correctly.
+Please follow, the [Sitecore Business Application guideline](speak.md) to structure your application and name your items correctly if it is built using SPEAK.
 
 ##Contributing
 
@@ -100,7 +116,7 @@ TO BE DONE
 
 ##FAQ
 
-PLease refer to [link to FAQ]
+PLease refer to [link to FAQ TBDefined]
 
 ##SPEAK Team and Resources
 
@@ -115,3 +131,8 @@ TBD
 ###Team members
 
 TBD
+
+
+##Social
+
+You can follow us on twitter [https://twitter.com/speakui](https://twitter.com/speakui)
