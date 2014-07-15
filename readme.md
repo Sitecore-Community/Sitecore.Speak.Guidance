@@ -110,6 +110,10 @@ Before submitting a feature or substantial code contribution please discuss it w
 
 Note that all code submissions will be rigorously reviewed and tested by the Sitecore SPEAK Team, and only those that meet an extremely high bar for both quality and design/roadmap appropriateness will be merged into the source. [Don't "Push" Your Pull Requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/)
 
+##Testing
+
+TO BE DONE
+
 ##Best Practices
 
 TO BE DONE

@@ -55,6 +55,17 @@ e.g:
 
 ![](component-self-contain.PNG)
 
+###Parameters Rules
+
+Parameters of your components must also use PascalCase.
+
+If you need to enable bindings to the parameter, just use the "Single-Line Text" type.
+
+Do not forget restrict the DataSource for you parameter if you need it to point to a specific folder (Always use ID and not path).
+
+Do not forget to choose the between Shared, Versioned and UnVersioned.
+
+
 ##Coding Style
 
 BCL is based on bootstrap. Therefore, we have adopted their code style guide for HTML and CSS.
@@ -86,3 +97,7 @@ Use the ```is-``` prefix for state rules that are shared between CSS and JS.
 ### C# 
 
 For C# part, please refer to the Sitecore guidelines.
+
+###Javascript
+
+The javascript part is in work in progress.
