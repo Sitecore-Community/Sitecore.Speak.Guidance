@@ -37,7 +37,7 @@ Please read our [speak page guideline](page.md)
 
 **SPEAK application**
 
-Please follow, the [Sitecore guideline](speak.md) to structure your SPEAK application and name your layout, items correctly.
+Please follow, the [Sitecore Business Application guideline](speak.md) to structure your SPEAK application and name your layout, items correctly.
 
 ##Contributing
 
