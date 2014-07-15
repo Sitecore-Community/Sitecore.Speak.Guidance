@@ -18,7 +18,7 @@ The github issue list is for bugs, not discussions. If you have a question you w
 - [SPEAK Forum](http://sdn.sitecore.net/Forum/ShowPost.aspx?PostID=61867)
 - [SPEAK Mailing list](mailto:scspeak@sitecore.net)
 
-When filling issues, please follow [the bug filling templates](/big.md). The best way to get your bug fixed is to be as detailed as you can be about the problem. Providing a minimal project (or a URL accessible internally) which steps to reproduce the problem is ideal. Here are questions you can answer before you fire a bug to make sure you are not missing any important information.
+When filling issues, please follow [the bug filling templates](/bug.md). The best way to get your bug fixed is to be as detailed as you can be about the problem. Providing a minimal project (or a URL accessible internally) which steps to reproduce the problem is ideal. Here are questions you can answer before you fire a bug to make sure you are not missing any important information.
 
 1. Did you read the documentation?
 2. Did you include the snippet of broken code in the issue (or at least a print screen)?

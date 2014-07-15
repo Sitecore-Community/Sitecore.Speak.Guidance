@@ -2,6 +2,8 @@
 
 A SPEAK component is generally composed by a Razor File (.cshtml), a JavaScript file and a bunch of CSS.
 
+### !important! Never use a component from another Sitecore Business Application.
+
 ##Components Structure.
 
 When you create components for your Business Application or an entire component library, you should always use the same structure as the BCL structure.
@@ -26,9 +28,32 @@ If the component is brand new and has not relation with an existing one, please 
 
 If the component is an extension of an existing component in the BCL, you should name **[app_name]NameOfTheComponent**
 
+##Items
 
-### !important! Never use a component from another Sitecore Business Application.
+The component is a "View Rendering" item.
 
+###Parameters Template
+
+The component parameters template is a Template item. It must derived from the ControlBase (or another base control depending on the need).
+
+![](component-base-template.png)
+
+- it must be called **NameOfComponent Paramters**
+- do not forget to create __StandardValues and set default parameters there.
+- it must be located **as a direct child of the ViewRendering Item**
+- do not forget to set it on the View Rendering (Parameters Template).
+
+###Items related to component
+
+If you need Items or Template for you component. It is better to keep them **under the Component Item**. This makes the component **self-contained**. Meaning, the developer using your component does not need to go through the content tree in order to find the appropriate template to use.
+
+There is currently no guideline defined on how to structure it under the Component.
+
+If the item/templates you need are shared between different components, you need to move it under the system folder.
+
+e.g:
+
+![](component-self-contain.PNG)
 
 ##Coding Style
 
