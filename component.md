@@ -8,7 +8,7 @@ A SPEAK component is generally composed by a Razor File (.cshtml), a JavaScript 
 
 When you create components for your Business Application or an entire component library, you should always use the same structure as the BCL structure.
 
-Do not forget, if you create a business application, this structure needs to be placed under the **Common** folder.
+Do not forget, if you create a business application, this structure needs to be placed under the **Settings** folder.
 
 **Please follow to the [component structure guideline](componentStructure.md) for more information** 
 

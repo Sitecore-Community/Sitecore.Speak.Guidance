@@ -2,7 +2,7 @@
 
 1) A SPEAK Page should always have a PageSettings Item.
 
-This PageSettings item should contain all the items specific to the page. In case of shared item for pages, you should move them under the Common/System folder.
+This PageSettings item should contain all the items specific to the page. In case of shared item for pages, you should move them under the Settings/System folder.
 
 2) A SPEAK Page should always try to use the Speak-Layout.
 

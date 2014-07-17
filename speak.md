@@ -49,7 +49,7 @@ Each shortcut must have an **Icon** (must be the same as your app folder) and a 
 
 Icon and Title **must** be approved by Mgmt.
 
-5) Create a Common Folder
+5) Create a Settings Folder
 
 That folder should contain all your Templates/Layouts/Renderings/Items needed to your application.
 
@@ -63,13 +63,13 @@ Creating your own layout should be avoided at any cost. Ideally, all your pages 
 
 In case of really specific needs, please contact KB, JC or PDE.
 
-7) System Folder should be created under the Common Folder.
+7) System Folder should be created under the Settings Folder.
 
 System will contain all the items needed by your application and shared among your pages. Those are generally Text item for translation, share configurations,...
 
 ![](system-tree.png)
 
-8) Templates Folder should be created under the Common Folder
+8) Templates Folder should be created under the Settings Folder
 
 If you need specific templates for your application, you must place them under the System Folder. As those templates are really specific to you application, you are free to choose the structure you want.
 
