@@ -57,11 +57,11 @@ For your component, try to replicate the same structure as the BCL. This makes t
 
 ![](component-tree.png)
 
-6) **NEVER** create your own layout
+6) Avoid to create your own layout
 
-Creating your own layout should be avoided at any cost. Ideally, all your pages should use the "speak-layout".
+Creating your own layout should be avoided as your layout could stop working after an upgrade. Ideally, all your pages should use the "speak-layout".
 
-In case of really specific needs, please contact KB, JC or PDE.
+In a case where you really need a new layout, do not forget to use the "data-sc-app" on the HTML tag of your page (<html data-sc-app>). You also need 2 placeholders, "Page.Body" and "Page.Code".
 
 7) System Folder should be created under the Settings Folder.
 
