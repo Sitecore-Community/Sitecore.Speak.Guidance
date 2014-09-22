@@ -32,7 +32,6 @@ The github issue list is for bugs, not discussions. If you have a question you w
 
 - [Stack Overflow](http://stackoverflow.com/questions/tagged/speakui)
 - [SPEAK Forum](http://sdn.sitecore.net/Forum/ShowPost.aspx?PostID=61867)
-- [SPEAK Mailing list](mailto:scspeak@sitecore.net)
 
 When filling issues, please follow [the bug filling templates](/bug.md). The best way to get your bug fixed is to be as detailed as you can be about the problem. Providing a minimal project (or a URL accessible internally) which steps to reproduce the problem is ideal. Here are questions you can answer before you fire a bug to make sure you are not missing any important information.
 
@@ -45,7 +44,7 @@ When filling issues, please follow [the bug filling templates](/bug.md). The bes
 
 **SPEAK component**
 
-Please read our [SPEAK component guideline](component.md)
+Please read our [SPEAK component guideline](component.md) and our [SPEAK component checklist](componentCheckList.md) in order to create great components.
 
 **SPEAK page**
 
