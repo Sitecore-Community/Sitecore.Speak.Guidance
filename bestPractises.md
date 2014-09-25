@@ -278,7 +278,7 @@ In your pageCode you would do:
 
 **Your pagecode is the glue between your components and your modules!!!**
 
-**If you do not have a pageCode for a complex, sorry but you are doing all wrong**
+**If you do not have a pageCode for a complex page, sorry but you are doing all wrong**
 
 **Just to be sure you get it, NEVER REFERENCE A COMPONENT OUTSIDE A PAGE CODE OR ANOTHER COMPONENT !!!**
 
