@@ -24,7 +24,7 @@ There are exceptions to that rule.
 
 **Disclaimer**
 
-This guideline is new and some part of the current is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.
+This guideline is new and some part of the current implementation is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.
 
 ##Filling Issues
 
@@ -115,7 +115,7 @@ TO BE DONE
 
 ##Best Practices
 
-TO BE DONE
+Please, report to our [Best Pactises section](bestPractises.md)
 
 ##FAQ
 
