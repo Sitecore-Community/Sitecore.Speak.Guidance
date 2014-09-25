@@ -6,7 +6,7 @@
 
 Each time you create a new component, make sure you follow all the steps mentioned in the [component check list](componentCheckList.md).
 
-By following this list, you will be sure that your component is located on the right place and has the right style. This is already a good thing for maintenance.
+By following this list, you will be sure that your component is located on the right place and has the right style. This is also a good thing for maintenance.
 
 ##Javascript
 
@@ -32,7 +32,7 @@ Why is it bad?
 
 First, you are making your MySubLibrary available by everyone. This means  any code written and exposed in that sort would be hard to track.
 
-Second, you giving the possiblity to anyone to override your implementation.
+Second, you are giving the possiblity to anyone to override your implementation.
 
 Anyone could do:
 
@@ -43,7 +43,7 @@ Anyone could do:
 
 I will stop there and if you want more information, you can read "[why global variables are bad](http://c2.com/cgi/wiki?GlobalVariablesAreBad)" and this [stackoverflow thread](http://stackoverflow.com/questions/2613310/ive-heard-global-variables-are-bad-what-alternative-solution-should-i-use)
 
-To correct this, it is easy: you need to define a Module using require:
+To solve this, it is easy: you need to define a Module using require:
 
 ```
 define(["jquery"], function (jQuery) {
@@ -148,7 +148,7 @@ It will avoid you doing things like:
 
 ###Create helpers for the DOM
 
-In the same way you want to separate your DOM works on a file, you maybe want to explicitly having a module handling all your dom Object.
+In the same way you want to separate your DOM works on a file, you maybe want to have a module containing all your DOM operations for you APP.
 
 Ex:
 
@@ -175,11 +175,11 @@ define(["jquery"], function (jQuery) {
 });
 ```
 
-By having all your DOM manipulation in separate modules, you can quickly find what kind of HTML is needed for your page to work. Moreover, if you are inserting HTML in the page (something you should not do), you can quickly all the CSS classes or IDs.
+By having all your DOM manipulations in separate modules, you can quickly find what kind of HTML is needed for your page to work. Moreover, if you are inserting HTML in the page (something you should not do), you can quickly find all the CSS classes or IDs.
 
 ###Separation of Concern, do use event.
 
-It is important that your component you should not rely on any other custom code you have created for you application.
+It is important that your component should not rely on any other custom code written in your application.
 
 If you have something like:
 
@@ -191,13 +191,13 @@ If you have something like:
 
 This is "really bad" as your are coupling Sitecore.MySubLibrary with your component. 
 
-If you need to communicate from your component with the external world, use your Property or your Events.
+If you need to communicate from your component with the external world, use **Property** or **Events**.
 
 **When to use Property ?**
 
-You use property when you are able to use DataBinding to express your change. If you set some items to a components, this will let you do databinding between that component and another one using ROCKS.
+You use property when you are able to use DataBinding to express your change. If you set some items to a component, this will let you do databinding between that component and another one using ROCKS.
 
-You also use property when it makes sense for your component to have that property express in the Component Parameters.
+You also use property when it makes sense for your component to have that property expressed in the Component Parameters item.
 
 **How to use Property ?**
 
@@ -220,9 +220,9 @@ For 1.2
 
 Listen for a change event ?
 
-If you are not able to use databinding or need to do more complex work, you listen for the change in your pageCode.
+If you are not able to use databinding or need to do more complex work, you listen for the change event in your pageCode.
 
-In your pageCode:
+Ex:
 
 ```
   this.myComponent.on("change:items", someCallback);
