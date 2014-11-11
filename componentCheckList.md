@@ -190,3 +190,9 @@ The Data Source Template must be set to the ID of the Parameters template.
 **Field names must valid code identifiers.**
 
 *As the field names are used in code, the field names should not contain spaces or illegal characters.*
+
+##Security Check
+
+**Are you encoding all untrusted data in order to prevent XSS attack?**
+
+**Are you sure you are not exposing any sensitive data?**
