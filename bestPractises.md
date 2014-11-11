@@ -324,6 +324,9 @@ How to use?
 
 The implementations is a modified version of the Backbone.js one. You can find documentation of the API here: http://backbonejs.org/#Events
 
+##Razor
+
+Always try to leverage as much as possible pure HTML in your view. It enforces separation of concerns but also will avoid having HTML in C#. Having Html in C# is wrong for multiple reason, it make your UI Logic encapsulated in a DLL, it makes it hard to chagne the style, it leads to security issue as you will need to use Html.Raw (the string generated will then be untrusted and would lead to XSS attack).
 
 ##.NET
 
