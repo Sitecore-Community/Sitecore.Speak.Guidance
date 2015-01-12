@@ -288,11 +288,6 @@ Full-Width Styles
 
 #header_wrap {
   background: #008998;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
 }
 
 #header_wrap .inner {
@@ -304,7 +299,6 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
 }
 
 #project_tagline {
@@ -312,7 +306,6 @@ Full-Width Styles
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
 }
 
 #downloads {
