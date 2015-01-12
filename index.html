@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Sitecore.speak.guidelines : Living SPEAK guideline used internally to share same structure and code style. It is work in progress and you are welcomed to pull request it.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Sitecore.speak.guidelines</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Sitecore-Community/Sitecore.Speak.Guidelines">View on GitHub</a>
+
+          <h1 id="project_title">Sitecore.speak.guidelines</h1>
+          <h2 id="project_tagline">Living SPEAK guideline used internally to share same structure and code style. It is work in progress and you are welcomed to pull request it.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Sitecore-Community/Sitecore.Speak.Guidelines/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Sitecore-Community/Sitecore.Speak.Guidelines/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="speak-guidelines" class="anchor" href="#speak-guidelines" aria-hidden="true"><span class="octicon octicon-link"></span></a>SPEAK Guidelines</h1>
+
+<p>In order to make SPEAK open to internal developers, we needed to define guidelines in order to accept pull-requests.</p>
+
+<p>Those guidelines must be strictly followed by the people who wants to collaborate.</p>
+
+<p>This guideline is a living guideline and is open to suggestions and improvements. You are welcome to raise issues and propose your pull-requests for the SPEAK collaboration guidelines.</p>
+
+<p><strong>Acronym</strong></p>
+
+<p>SPEAK is an acronym for Sitecore Process Enable Accelerator Kit.
+BCL is an acronym for Business Component Library.</p>
+
+<p><strong>SPEAK typo</strong></p>
+
+<p>When writing about SPEAK, you should always use capital case. On social media, "SPEAKui" is also acceptable to refer to the SPEAK twitter account.</p>
+
+<p>There are exceptions to that rule.</p>
+
+<ul>
+<li>In Javascript, the variable will be called Speak (PascalCase) even if it is an acronym because in JavaScript full capital case for a variable or a name-space means a constant (like Math.PI).</li>
+<li>When naming our layouts or items in SPEAK, we have also used the PascalCase notation. As we found that SPEAK-layout was an ugly name, we went for Speak-layout. Normally only the SPEAK project and the BCL should have items containing the name SPEAK.</li>
+</ul>
+
+<p><strong>Disclaimer</strong></p>
+
+<p>This guideline is new and some part of the current implementation is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.</p>
+
+<h2>
+<a id="filling-issues" class="anchor" href="#filling-issues" aria-hidden="true"><span class="octicon octicon-link"></span></a>Filling Issues</h2>
+
+<p>The github issue list is for bugs, not discussions. If you have a question you want to ask you have many alternatives:</p>
+
+<ul>
+<li><a href="http://stackoverflow.com/questions/tagged/speakui">Stack Overflow</a></li>
+<li><a href="http://sdn.sitecore.net/Forum/ShowPost.aspx?PostID=61867">SPEAK Forum</a></li>
+</ul>
+
+<p>When filling issues, please follow <a href="/bug.md">the bug filling templates</a>. The best way to get your bug fixed is to be as detailed as you can be about the problem. Providing a minimal project (or a URL accessible internally) which steps to reproduce the problem is ideal. Here are questions you can answer before you fire a bug to make sure you are not missing any important information.</p>
+
+<ol>
+<li>Did you read the documentation?</li>
+<li>Did you include the snippet of broken code in the issue (or at least a print screen)?</li>
+<li>Can you reproduce the problem in a brand new project, or a brand new page?</li>
+<li>What are the <strong>EXACT</strong> steps to reproduce this problem?</li>
+</ol>
+
+<h2>
+<a id="coding-guidelines" class="anchor" href="#coding-guidelines" aria-hidden="true"><span class="octicon octicon-link"></span></a>Coding guidelines</h2>
+
+<p><strong>SPEAK component</strong></p>
+
+<p>Please read our <a href="component.md">SPEAK component guideline</a> and our <a href="componentCheckList.md">SPEAK component checklist</a> in order to create great components.</p>
+
+<p><strong>SPEAK page</strong></p>
+
+<p>Please read our <a href="page.md">SPEAK page guideline</a></p>
+
+<p><strong>SPEAK application</strong></p>
+
+<p>Please follow, the <a href="speak.md">Sitecore Business Application guideline</a> to structure your application and name your items correctly if it is built using SPEAK.</p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<h3>
+<a id="project-worfkflow" class="anchor" href="#project-worfkflow" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Worfkflow</h3>
+
+<p><em>draft mode</em> </p>
+
+<p>Our workflow is loosely based on <a href="http://scottchacon.com/2011/08/31/github-flow.html">Github Flow</a>. We actively develop in the <strong>master</strong> branch. This means that all pull requests by contributors need to be developed and submitted on the master branch. If you need to fix an error for a specific version of SPEAK. You can find it as a "tag". If you need a fix for an anterior release, please contact the Sitecore Support. The master branch created a Symphony package for the Sitecore Platform on a nightly basis. This means that anything committed to master could go to the next release of Sitecore.</p>
+
+<h3>
+<a id="issue-management" class="anchor" href="#issue-management" aria-hidden="true"><span class="octicon octicon-link"></span></a>Issue management</h3>
+
+<p><em>draft mode</em></p>
+
+<p><strong>Tag Format</strong></p>
+
+<ul>
+<li>Bug - A bug</li>
+<li>PBI - Product Backlog Item (a feature), follow the PBI guideline to create appropriate change request.</li>
+</ul>
+
+<p>Each week, the SPEAK committee decides which PBIs/Bugs need to be integrated into the SPRINT.</p>
+
+<p>Here is the flow for your PBI/BUG:</p>
+
+<ul>
+<li>1 - Ready</li>
+</ul>
+
+<p>It means you have provided enough information PBI/Bug in order to be developed.</p>
+
+<ul>
+<li>2 - Blocked</li>
+</ul>
+
+<p>It means that your PBI/Bug has been integrated to our backlog.</p>
+
+<ul>
+<li>3 - Working</li>
+</ul>
+
+<p>It means one of our developer is currently working on it.</p>
+
+<ul>
+<li>4 - Review</li>
+</ul>
+
+<p>It means, this PBI/Bug is on review states.</p>
+
+<ul>
+<li>5 - Done (open)</li>
+</ul>
+
+<p>Bug/Feature has been "accepted" as final and is ready for verification (pushed to source)</p>
+
+<ul>
+<li>5 - Done (close)</li>
+</ul>
+
+<p>Bug/Feature has been "accepted" as final and has resolved the corresponding issue</p>
+
+<h3>
+<a id="submitting-pull-requests" class="anchor" href="#submitting-pull-requests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Submitting Pull requests</h3>
+
+<p><em>draft mode</em></p>
+
+<p>Make sure you can build the code. Familiarize yourself with the project workflow and our coding conventions. If you don't know what a pull request is read this <a href="https://help.github.com/articles/using-pull-requests">https://help.github.com/articles/using-pull-requests</a>.</p>
+
+<p>Before submitting a feature or substantial code contribution please discuss it with the team and ensure it follows the product roadmap. </p>
+
+<p>Note that all code submissions will be rigorously reviewed and tested by the Sitecore SPEAK Team, and only those that meet an extremely high bar for both quality and design/roadmap appropriateness will be merged into the source. <a href="https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/">Don't "Push" Your Pull Requests</a></p>
+
+<h2>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Testing</h2>
+
+<p>TO BE DONE</p>
+
+<h2>
+<a id="best-practices" class="anchor" href="#best-practices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Best Practices</h2>
+
+<p>Please, report to our <a href="bestPractises.md">Best Pactises section</a></p>
+
+<h2>
+<a id="faq" class="anchor" href="#faq" aria-hidden="true"><span class="octicon octicon-link"></span></a>FAQ</h2>
+
+<p>PLease refer to [link to FAQ TBDefined]</p>
+
+<h2>
+<a id="speak-team-and-resources" class="anchor" href="#speak-team-and-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>SPEAK Team and Resources</h2>
+
+<h3>
+<a id="internal-contact-point" class="anchor" href="#internal-contact-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>Internal Contact Point</h3>
+
+<p>TBD</p>
+
+<h3>
+<a id="external-contact-point" class="anchor" href="#external-contact-point" aria-hidden="true"><span class="octicon octicon-link"></span></a>External Contact Point</h3>
+
+<p>TBD</p>
+
+<h3>
+<a id="team-members" class="anchor" href="#team-members" aria-hidden="true"><span class="octicon octicon-link"></span></a>Team members</h3>
+
+<p>TBD</p>
+
+<h2>
+<a id="social" class="anchor" href="#social" aria-hidden="true"><span class="octicon octicon-link"></span></a>Social</h2>
+
+<p>You can follow us on twitter <a href="https://twitter.com/speakui">https://twitter.com/speakui</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Sitecore.speak.guidelines maintained by <a href="https://github.com/Sitecore-Community">Sitecore-Community</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
