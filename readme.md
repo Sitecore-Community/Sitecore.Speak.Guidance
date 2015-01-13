@@ -1,141 +1,62 @@
-#SPEAK Guidelines
+# Sitecore.Speak.Guidance #
 
-In order to make SPEAK open to internal developers, we needed to define guidelines in order to accept pull-requests.
+The SPEAK Guidance Repository provides concise guidelines, conventions, and best practices related to implementing components and applications in SPEAK.  
 
-Those guidelines must be strictly followed by the people who wants to collaborate.
+*The SPEAK Guidance Repository replaces the Sitecore.Speak.Guideline repository.*
 
-This guideline is a living guideline and is open to suggestions and improvements. You are welcome to raise issues and propose your pull-requests for the SPEAK collaboration guidelines.
+This repository describes *what* to do, not *how* to do it.  Please refer to the [Sitecore Doc Site](https://doc.sitecore.net/products/speak) for information regarding how to perform tasks in SPEAK. 
 
-**Acronym**
+## How to use this repository
 
-SPEAK is an acronym for Sitecore Process Enable Accelerator Kit.
-BCL is an acronym for Business Component Library.
+The repository organization helps you find the information most relevant to you based on your main activity, presuming that you currently focus mainly on either implementing an application using existing components, or implementing one or more components.
 
+We recommend that you read ALL guidelines related your primary task, and you may safely ignore guidelines that do not related to your work.
 
-**SPEAK typo**
+### We welcome your input! 
 
-When writing about SPEAK, you should always use capital case. On social media, "SPEAKui" is also acceptable to refer to the SPEAK twitter account.
+If you have suggestions for how to improve these guidelines, or existing SPEAK components, please read the [Contributing to SPEAK](./Contributing%20to%20SPEAK/ProposingGuidance.md) guidelines.
 
-There are exceptions to that rule.
+## Application Development Guidance
 
-- In Javascript, the variable will be called Speak (PascalCase) even if it is an acronym because in JavaScript full capital case for a variable or a name-space means a constant (like Math.PI).
-- When naming our layouts or items in SPEAK, we have also used the PascalCase notation. As we found that SPEAK-layout was an ugly name, we went for Speak-layout. Normally only the SPEAK project and the BCL should have items containing the name SPEAK.
+Please follow all the guidance in this section when implementing applications in SPEAK.
 
+### General Guidance
 
-**Disclaimer**
+[Application Definition Storage](./Application%20Development/General%20Guidelines/ApplicationDefinitionStorage.md) - Where to store your application files and items.  
+[Custom Components](./Application%20Development/General%20Guidelines/CustomComponents.md) - When and how to create custom components.  
+[Dialog Definition Storage](./Application%20Development/General%20Guidelines/DialogDefinitionStorage.md) - Where to store dialogs used by your SPEAK application.
 
-This guideline is new and some part of the current implementation is not entirely reflecting what is described below. If it is the case, it would be kind of you to re-format it following the current guidelines.
+### Page Development
 
-##Filling Issues
+[Component Settings](./Application%20Development/Page%20Development/ComponentSettings.md) - Guidelines for configuring components on a page.  
+[Dialog Definition Items](./Application%20Development/Page%20Development/DialogDefinitionItems.md) - Guidelines for configuring dialogs for a page.  
+[Page Definition Items](./Application%20Development/Page%20Development/PageDefinitionItems.md) - Guidelines for implementing an application page.  
 
-The github issue list is for bugs, not discussions. If you have a question you want to ask you have many alternatives:
+### PageCode
 
-- [Stack Overflow](http://stackoverflow.com/questions/tagged/speakui)
-- [SPEAK Forum](http://sdn.sitecore.net/Forum/ShowPost.aspx?PostID=61867)
+[All Language Styling](./Application%20Development/PageCode/AllLanguageStyling.md) - Guidelines for styling code regardless of the language chosen.  
+[C#](./Application%20Development/PageCode/CSharp.md) - Guidelines for C# based page code.  
+[JavaScript](./Application%20Development/PageCode/JavaScript.md) - Guidelines for JavaScript based page code.  
 
-When filling issues, please follow [the bug filling templates](/bug.md). The best way to get your bug fixed is to be as detailed as you can be about the problem. Providing a minimal project (or a URL accessible internally) which steps to reproduce the problem is ideal. Here are questions you can answer before you fire a bug to make sure you are not missing any important information.
+## Component Development Guidance
 
-1. Did you read the documentation?
-2. Did you include the snippet of broken code in the issue (or at least a print screen)?
-3. Can you reproduce the problem in a brand new project, or a brand new page?
-4. What are the **EXACT** steps to reproduce this problem?
- 
-##Coding guidelines
+Please follow all the guidance in this section when implementing components in SPEAK.
 
-**SPEAK component**
+### Architecture
 
-Please read our [SPEAK component guideline](component.md) and our [SPEAK component checklist](componentCheckList.md) in order to create great components.
+[ArtifactNamingAndLocation](./Component%20Development/Architecture/ArtifactNamingAndLocation.md) - Where to store and how to name component files and items.  
+[BaselineFunctionality](./Component%20Development/Architecture/BaselineFunctionality.md) - Minimal functionality required by all components.  
 
-**SPEAK page**
+### Coding Guidelines
 
-Please read our [SPEAK page guideline](page.md)
+[All Language Styling](./Component%20Development/Coding%20Guidelines/AllLanguageStyling.md) - Guidelines for styling code regardless of the language chosen.  
+[C#](./Component%20Development/Coding%20Guidelines/CSharp.md) - Guidelines for C# component code.  
+[JavaScript](./Component%20Development/Coding%20Guidelines/JavaScript.md) - Guidelines for JavaScript component code.  
+[JavaScript for Core 1.1](./Component%20Development/Coding%20Guidelines/JavaScriptCore1.1.md) - Guidelines for JavaScript for Core 1.1 components.  
+[Razor View (CSHTML)](./Component%20Development/Coding%20Guidelines/RazorViewCSHTML.md) - Guidelines for CSHTML code that defines the component View.  
+[StyleSheets (Css and Less)](./Component%20Development/Coding%20Guidelines/StylesheetCssLess.md) - Guidelines for StyleSheet code in CSS and Less.  
 
-**SPEAK application**
+### Items
 
-Please follow, the [Sitecore Business Application guideline](speak.md) to structure your application and name your items correctly if it is built using SPEAK.
-
-##Contributing
-
-###Project Worfkflow
-
-*draft mode* 
-
-Our workflow is loosely based on [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html). We actively develop in the **master** branch. This means that all pull requests by contributors need to be developed and submitted on the master branch. If you need to fix an error for a specific version of SPEAK. You can find it as a "tag". If you need a fix for an anterior release, please contact the Sitecore Support. The master branch created a Symphony package for the Sitecore Platform on a nightly basis. This means that anything committed to master could go to the next release of Sitecore.
-
-###Issue management
-
-*draft mode*
-
-**Tag Format**
-
-- Bug - A bug
-- PBI - Product Backlog Item (a feature), follow the PBI guideline to create appropriate change request.
-
-Each week, the SPEAK committee decides which PBIs/Bugs need to be integrated into the SPRINT.
-
-Here is the flow for your PBI/BUG:
-
-- 1 - Ready
-
-It means you have provided enough information PBI/Bug in order to be developed.
-
-- 2 - Blocked
-
-It means that your PBI/Bug has been integrated to our backlog.
-
-- 3 - Working
-
-It means one of our developer is currently working on it.
-
-- 4 - Review
-
-It means, this PBI/Bug is on review states.
-
-- 5 - Done (open)
-
-Bug/Feature has been "accepted" as final and is ready for verification (pushed to source)
-
-- 5 - Done (close)
-
-Bug/Feature has been "accepted" as final and has resolved the corresponding issue
-
-###Submitting Pull requests
-
-*draft mode*
-
-Make sure you can build the code. Familiarize yourself with the project workflow and our coding conventions. If you don't know what a pull request is read this https://help.github.com/articles/using-pull-requests.
-
-Before submitting a feature or substantial code contribution please discuss it with the team and ensure it follows the product roadmap. 
-
-Note that all code submissions will be rigorously reviewed and tested by the Sitecore SPEAK Team, and only those that meet an extremely high bar for both quality and design/roadmap appropriateness will be merged into the source. [Don't "Push" Your Pull Requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/)
-
-##Testing
-
-TO BE DONE
-
-##Best Practices
-
-Please, report to our [Best Pactises section](bestPractises.md)
-
-##FAQ
-
-PLease refer to [link to FAQ TBDefined]
-
-##SPEAK Team and Resources
-
-###Internal Contact Point
-
-TBD
-
-###External Contact Point
-
-TBD
-
-###Team members
-
-TBD
-
-
-##Social
-
-You can follow us on twitter [https://twitter.com/speakui](https://twitter.com/speakui)
+[Definition Items](./Component%20Development/Items/DefinitionItem.md) - Guidelines for component definition items.  
+[Parameters Template](./Component%20Development/Items/ParametersTemplate.md) - Guidelines for component parameters templates.
