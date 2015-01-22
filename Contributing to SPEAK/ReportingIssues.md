@@ -15,4 +15,6 @@ When you see behavior that you consider inappropriate, please follow the followi
 	+ We will reject all "application specific" issues.
 
 	+ Recreating with a "clean" SPEAK page and components ensures that your application does not contain inappropriate configuration or custom code, and may help you find the source of the problem without waiting for a response from your issue report.
+
+- Please DO create a Sitecore package that reproduces the issue and attach it to your issue report.
  
