@@ -1,4 +1,7 @@
-# Code Guidelines for All Languages
+---
+layout: default
+title: Code Guidelines for All Languages
+---
 
 The following guidelines apply to all coding languages (.cs, .cshtml, .css, .less, .js, .ts...).
 

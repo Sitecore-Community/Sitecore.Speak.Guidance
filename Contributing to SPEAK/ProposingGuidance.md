@@ -1,4 +1,7 @@
-# Proposing Guidance
+---
+layout: default
+title: Proposing Guidance
+---
 
 We welcome your ideas!  If you have suggestions for how to improve the guidance in this repository, we want to hear from you.  Suggestions could include any of the following:
 

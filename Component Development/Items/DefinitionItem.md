@@ -1,4 +1,7 @@
-# Component Definition Item Guidelines
+---
+layout: default
+title: Component Definition Item Guidelines
+---
 
 The following guidelines apply to all components.
 

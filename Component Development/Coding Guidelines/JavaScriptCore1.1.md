@@ -1,4 +1,9 @@
-# Code Guidelines for JavaScript (Core 1.1 only)
+---
+layout: default
+title: Code Guidelines for JavaScript (Core 1.1 only)
+---
+
+
 
 The following guidelines apply to JavaScript for components that work for the 1.1 version of the SPEAK Core.
 

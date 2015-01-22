@@ -1,4 +1,7 @@
-# Application Dialog Definition Storage #
+---
+layout: default
+title: Application Dialog Definition Storage
+---
 
 The following guidelines apply to dialogs created by Sitecore for release as part of an application created in SPEAK.
 

@@ -1,4 +1,7 @@
-# Artifact Naming and Location #
+---
+layout: default
+title: Artifact Naming and Location
+---
 
 The following guidelines apply to all components.
 

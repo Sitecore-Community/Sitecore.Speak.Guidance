@@ -1,4 +1,7 @@
-# Code Guidelines for C# 
+---
+layout: default
+title: Code Guidelines for C#
+---
 
 The following guidelines apply to C# for components.
 

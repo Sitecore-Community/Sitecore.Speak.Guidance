@@ -1,4 +1,8 @@
-# Baseline Component Functionality #
+---
+layout: default
+title: Baseline Component Functionality
+---
+
 
 All components must provide the following baseline functionality.
 

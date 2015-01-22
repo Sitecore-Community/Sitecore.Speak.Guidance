@@ -1,4 +1,7 @@
-# Code Guidelines for Stylesheets
+---
+layout: default
+title: Code Guidelines for Stylesheets
+---
 
 The following guidelines apply to CSS and Less for components.
 

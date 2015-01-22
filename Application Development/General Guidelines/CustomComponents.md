@@ -1,4 +1,7 @@
-# Custom Component Guidelines #
+---
+layout: default
+title: Custom Component Guidelines
+---
 
 The following guidelines apply to business applications created by Sitecore for release as part of the Sitecore platform.
 

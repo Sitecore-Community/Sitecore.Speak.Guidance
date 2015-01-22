@@ -1,4 +1,8 @@
-# Code Guidelines for Razor Views 
+---
+layout: default
+title: Code Guidelines for Razor Views 
+---
+
 
 The following guidelines apply to CSHTML for components.
 

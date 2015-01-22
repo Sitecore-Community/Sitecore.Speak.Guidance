@@ -1,4 +1,9 @@
-# Page Definition Conventions #
+---
+layout: default
+title: Page Definition Conventions
+---
+
+
 
 The following guidelines apply to applications created by Sitecore for release as part of the Sitecore platform.
 

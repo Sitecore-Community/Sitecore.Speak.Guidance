@@ -1,4 +1,7 @@
-# Application Definition Storage #
+---
+layout: default
+title: Application Definition Storage
+---
 
 The following guidelines apply to business applications created by Sitecore for release as part of the Sitecore platform.
 

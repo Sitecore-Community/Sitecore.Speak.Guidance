@@ -2,7 +2,7 @@
 name: Sitecore.Speak.Guidance
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: This is a sample Jekyll Blog.
+description: Living SPEAK guideline used internally to share same structure and code style. It is work in progress and you are welcomed to pull request it.
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Kerry Bellerose

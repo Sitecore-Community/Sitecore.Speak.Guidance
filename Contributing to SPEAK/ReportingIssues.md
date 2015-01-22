@@ -1,4 +1,7 @@
-# Reporting Issues
+---
+layout: default
+title: Reporting Issues
+---
 
 If you encounter issues, please tell us!
 

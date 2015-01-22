@@ -1,4 +1,8 @@
-# Component Parameters Template Guidelines
+---
+layout: default
+title: Component Parameters Template Guidelines
+---
+
 
 The following guidelines apply to all components.
 
