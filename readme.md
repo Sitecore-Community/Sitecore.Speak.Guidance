@@ -10,11 +10,13 @@ This repository describes *what* to do, not *how* to do it.  Please refer to the
 
 The repository organization helps you find the information most relevant to you based on your main activity, presuming that you currently focus mainly on either implementing an application using existing components, or implementing one or more components.
 
-We recommend that you read ALL guidelines related your primary task, and you may safely ignore guidelines that do not related to your work.
+We recommend that you read ALL guidance related your primary task, and you may safely ignore guidance that is not related to your work.
 
 ### We welcome your input! 
 
-If you have suggestions for how to improve these guidelines, or existing SPEAK components, please read the [Contributing to SPEAK](./Contributing%20to%20SPEAK/ProposingGuidance.md) guidelines.
+If you encounter issues, please tell us!  To learn best practices to follow when reporting issues, please read the [Reporting Issues](./Contributing%20to%20SPEAK/ReportingIssues.md) guidance.
+
+If you have suggestions for how to improve these guidelines, or existing SPEAK components, please read the [Contributing to SPEAK](./Contributing%20to%20SPEAK/ProposingGuidance.md) guidance.
 
 ## Application Development Guidance
 
