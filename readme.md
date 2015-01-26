@@ -8,7 +8,7 @@ This repository describes *what* to do, not *how* to do it.  Please refer to the
 
 ## How to use this repository
 
-The repository organization helps you find the information most relevant to you based on your main activity, presuming that you currently focus mainly on either implementing an application using existing components, or implementing one or more components.
+The repository organization helps you find the information most relevant to you based on your main activity, presuming that you currently focus mainly on either implementing an application using existing components, or creating new components.
 
 We recommend that you read ALL guidance related your primary task, and you may safely ignore guidance that is not related to your work.
 
