@@ -15,7 +15,7 @@ The following guidelines apply to business applications created by Sitecore for 
 
 1. Set the application folder item's icon to the UX approved application icon.
 
-1. Create the application Dashboard page, which is the application's default initial page and is also known as the root page, directly under the application folder. Use the name **Dashboard** and the **Speak-DashboardPage** branch.
+1. Create the application Dashboard page, which is the application's default initial page and is also known as the root page, directly under the application folder. Use the name **Dashboard** and the **/templates/branches/applications/DashboardPage** branch.
 
 1. Create all other pages accessible from the Dashboard page as sub-items under the Dashboard page.
 
