@@ -6,6 +6,10 @@ The SPEAK Guidance Repository provides concise guidelines, conventions, and best
 
 This repository describes *what* to do, not *how* to do it.  Please refer to the [Sitecore Doc Site](https://doc.sitecore.net/products/speak) for information regarding how to perform tasks in SPEAK. 
 
+## Mission
+
+SPEAK combines Sitecore's web development platform with best-of-breed web technologies to empower application developers in the rapid development of powerful, friendly, consistent, high performance Sitecore applications.
+
 ## How to use this repository
 
 The repository organization helps you find the information most relevant to you based on your main activity, presuming that you currently focus mainly on either implementing an application using existing components, or implementing one or more components.
