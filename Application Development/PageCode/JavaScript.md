@@ -15,3 +15,5 @@ The following guidelines apply to JavaScript for PageCode.
 
 - Do check in "commented out" code.
 
+- Avoid using Speak core directly in applications, try to use appropriate Speak controls.
+
