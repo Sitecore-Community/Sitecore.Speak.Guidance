@@ -15,3 +15,4 @@ The following guidelines apply to JavaScript for PageCode.
 
 - Do NOT check in "commented out" code.
 
+- Verify usage of "this" in event handlers and callback functions.
