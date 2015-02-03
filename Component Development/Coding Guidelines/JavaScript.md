@@ -26,6 +26,8 @@ The following guidelines apply to JavaScript for components.
 
 - Do NOT check in "commented out" code.
 
+- Verify usage of "this" in event handlers and callback functions.
+
 ## Component-Specific Guidelines 
 
 - The model should expose all appropriate parameters.
