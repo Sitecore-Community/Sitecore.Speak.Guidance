@@ -13,5 +13,5 @@ The following guidelines apply to JavaScript for PageCode.
 
 - Comment all code using JSDoc style.
 
-- Do check in "commented out" code.
+- Do NOT check in "commented out" code.
 
