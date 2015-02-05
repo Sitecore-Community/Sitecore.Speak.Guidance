@@ -8,7 +8,7 @@ The following guidelines apply to CSHTML for components.
 
 - Follow the All Language Styling guidelines.
 
-- Follow the Boostrap coding guidelines.
+- Follow the [Bootstrap Coding Guidelines](https://github.com/mdo/code-guide).
 
 - Do not close the void element.  For example, write `<br>` not `<br />`.
 
