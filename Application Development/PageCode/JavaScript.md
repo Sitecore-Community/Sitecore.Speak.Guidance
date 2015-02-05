@@ -15,3 +15,5 @@ The following guidelines apply to JavaScript for PageCode.
 
 - Do NOT check in "commented out" code.
 
+- Use standard components rather than calling the SPEAK Core API (to maximize reuse).  For example, use the LoadOnDemandPanel rather than calling InsertRendering.
+
