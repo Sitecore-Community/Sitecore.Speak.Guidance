@@ -28,6 +28,9 @@ The following guidelines apply to JavaScript for components.
 
 - Verify usage of "this" in event handlers and callback functions.
 
+- Use Speak handler to reference assets rather than direct urls.
+
+
 ## Component-Specific Guidelines 
 
 - The model should expose all appropriate parameters.
