@@ -17,7 +17,7 @@ The following guidelines apply to business applications created by Sitecore for 
 
 1. Create the application Dashboard page, which is the application's default initial page and is also known as the root page, directly under the application folder. Use the name **Dashboard** and the **/templates/branches/applications/DashboardPage** branch.
 
-1. Create all other pages accessible from the Dashboard page as sub-items under the Dashboard page.
+1. Create all other pages accessible from the Dashboard page as sub-items under the Dashboard page, so that the navigation components, such as the Breadcrumb, can generate an appropriate structure.
 
 1. Create a **Settings** folder directly under the application folder.  Create folders under the Settings folder to store non-page related definition items, such as for common text, templates, field value enumerations, and so on.  Give these folders appropriate names, such as Templates or Common Text.
 
