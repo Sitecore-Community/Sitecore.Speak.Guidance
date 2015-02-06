@@ -20,7 +20,9 @@ The following guidelines apply to all components.
 
 - Specify `Versioned` fields for parameters that contain visible text and `Shared` fields for all other parameters.
 
-- Create a `__Standard Values` item for the Parameters Template and set default values for parameters there.
+- Create a `__Standard Values` item for the Parameters Template and use it to set default values for configuration items.
+
+- Set default values for component parameters set in the Layout Details in the `Default Parameters` field of the appropriate View Rendering item.
 
 - Set the bindmode in the `Source` field (in the `Data` field section) if the parameter does not use standard read/write binding.
 
