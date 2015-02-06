@@ -20,7 +20,7 @@ The following guidelines apply to applications created by Sitecore for release a
     @Html.Sitecore().Placeholder("Page.Body")
     
 
-4. Always create a PageSettings item based on the Speak-PageSettings template underneath the page definition item.  Include all page specific settings items underneath this item.  Store settings items that multiple pages reference in the application's **<AppName\>/Settings/System** folder.
+4. Always create a PageSettings item based on the PageSettings template underneath the page definition item.  Include all page specific settings items underneath this item.  Store settings items that multiple pages reference in the application's **<AppName\>/Settings/System** folder.
 
 5. Always include a PageCode component in the page definition item's Layout Details (included automatically when you use a predefined page branch as indicated above).
 
