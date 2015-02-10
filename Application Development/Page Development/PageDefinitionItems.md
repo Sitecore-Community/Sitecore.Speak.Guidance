@@ -13,11 +13,11 @@ The following guidelines apply to applications created by Sitecore for release a
 
 1. Customers and Partners may choose to create their own SPEAK Layout (although we do not recommend it).  If you create your own layout, be sure to add to following lines at appropriate locations (refer to the Speak-Layout for an example):
 
->    <html data-sc-app>
+>    <html data-sc-app>  
 >    
->    @Html.Sitecore().Placeholder("Page.Code")
+>    @Html.Sitecore().Placeholder("Page.Code")  
 >    
->    @Html.Sitecore().Placeholder("Page.Body")
+>    @Html.Sitecore().Placeholder("Page.Body")  
     
 
 4. Always create a PageSettings item based on the PageSettings template underneath the page definition item.  Include all page specific settings items underneath this item.  Store settings items that multiple pages reference in the application's **<AppName\>/Settings/System** folder.
