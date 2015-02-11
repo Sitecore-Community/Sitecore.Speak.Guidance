@@ -38,8 +38,12 @@ The following guidelines apply to CSHTML for components.
 
 - Avoid having database calls in the Model or Razor view.
 
+- Set HasNestedControls to true when the view supports nested components.
+
 - Prefix the component CSS class with `sc-`.
 
-- Set HasNestedControls to true when the view supports nested components.
+- Prefix all data attribute names with `data-sc-`.
+
+- Use dash (-) to separate words in attribute names (for example, `data-sc-property-name`)
 
 - Use the `data-sc-component` attribute to identify the component.
