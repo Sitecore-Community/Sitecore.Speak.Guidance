@@ -12,3 +12,5 @@ The following guidelines apply to C# for components.
 - Mark members with `[NotNull]` and `[CanBeNull]`
 
 - Include meaningful Xml comments for all members.
+
+- Never manipulate (add HTML, set attributes etc.) HTML directly in .CS files - that is for the .CSHTML files.
