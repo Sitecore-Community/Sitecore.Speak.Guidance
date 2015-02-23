@@ -9,7 +9,9 @@ The following guidelines apply to JavaScript for PageCode.
 
 - Follow the All Language Styling guidelines.
 
-- Use camelCase when naming functions and variables
+- Use camelCase when naming functions and variables.
+
+- Use camelCasing when naming new files.
 
 - Comment all code using JSDoc style.
 
