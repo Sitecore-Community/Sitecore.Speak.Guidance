@@ -91,6 +91,8 @@ It uses `UTF.dll`, `UTF.SPEAK.dll`, and Speak Application wrapper .dll.
 
 - Place the `HelperWebService.dll` file in the Sitecore `\bin` folder.
 
+- Place IEDriverServer.exe and chromedriver.exe to `\bin` folder in order to run auto-test against IE and Chrome.
+
 - Create a "Test Fixture" class derived from `UTF.TestFixtureBase`.
 
 - Define test suite behavior using `[TestFixture(BrowserType.Browser)]`  attributes.
