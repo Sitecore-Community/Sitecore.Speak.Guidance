@@ -7,13 +7,13 @@ title: Code Guidelines for JavaScript (Core 1.1 only)
 
 The following guidelines apply to JavaScript for components that work for the 1.1 version of the SPEAK Core.
 
-## General Guidelines 
+## General Guidelines
 
 - Follow the All Language Styling guidelines.
 
 - Follow the standard JavaScript guidelines except when they conflict with the guidelines below.
 
-## Component-Specific Guidelines 
+## Component-Specific Guidelines
 
 - Configure the component to inherit from the proper base component.
 
@@ -39,5 +39,3 @@ The following guidelines apply to JavaScript for components that work for the 1.
 - Use the following code to trigger an event: `API.trigger("events");`
 
   + The implementations is a modified version of Backbone.js. [Read more about the API here](http://backbonejs.org/#Events)
-
-

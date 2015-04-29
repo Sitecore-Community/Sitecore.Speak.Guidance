@@ -7,15 +7,15 @@ The following guidelines apply to business applications created by Sitecore for 
 
 1. Only use components provided in the SPEAK Business Component Library (BCL).
 
-1. If the BCL does not contain any components that can come close to your application's requirements, contact the UX Team and SPEAK Product Manager with a ***new component request***.  The UX Team and SPEAK Product Manager will work with you to create a plan.
+1. If the BCL does not contain any components that can come close to your application's requirements, contact the UX team and SPEAK product manager with a ***new component request***.  The UX team and SPEAK product manager will work with you to create a plan.
 
-1. If an existing component comes close to your application's requirements, but does not have a specific behavior your application requires, contact the UX Team and SPEAK Product Manager with a ***change request***.
+1. If an existing component comes close to your application's requirements, but does not have a specific behavior your application requires, contact the UX team and SPEAK product manager with a ***change request***.
 
-1. If your change request is rejected, your application must use the existing components. The UX Team and SPEAK Product Manager will provide guidance. 
+1. If your change request is rejected, your application must use the existing components. The UX team and SPEAK product manager will provide guidance. 
 
-1. If your change request is approved, you may be asked to create a local custom component to implement the required behavior locally, either to allow progress on your application while the SPEAK Team implements the change, or to contribute your implementation of the change to the BCL after approval of the implementation by the SPEAK Gatekeeper.
+1. If your change request is approved, you may be asked to create a local custom component to implement the required behavior locally, either to allow progress on your application while the SPEAK team implements the change, or to contribute your implementation of the change to the BCL after approval of the implementation by the SPEAK gatekeeper.
 
-## Local Custom Components Guidelines##
+## Local custom components guidelines##
 
 You should create a local custom component for your application in the following situations:
 
@@ -27,7 +27,7 @@ You should create a local custom component for your application in the following
 
 When creating a local custom component, follow these guidelines.
 
-### Creating a Local Copy of a Component ###
+### Creating a local copy of a component ###
 
 1. When creating a local copy of an existing component (either from the BCL or another application), copy the existing implementation files and items to your application development environment.
 
@@ -39,12 +39,12 @@ When creating a local custom component, follow these guidelines.
 
 1. Follow all Component Development guidelines when making the required changes in the component definition items and files.
 
-### Creating a New Local Component ###
+### Creating a new local component ###
 
 1. Choose a descriptive name for the component and include the name of your application as a component name prefix.  For example, if your application name is "MyApp" and the new component implemented a Rich Text Editor, the name should be "MyAppRichTextEditor".
 
-1. Agree on a component library location for the new component with the SPEAK and UX Teams and create the required item structure underneath your application's Settings folder.
+1. Agree on a component library location for the new component with the SPEAK and UX teams and create the required item structure underneath your application's Settings folder.
 
 1. Create a corresponding file system folder and file structure for the component definition files underneath your application's file structure.
 
-1. Follow all Component Development guidelines when creating the new component.
+1. Follow all component development guidelines when creating the new component.
