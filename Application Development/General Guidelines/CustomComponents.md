@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Custom Component Guidelines
+title: Custom components
 ---
 
 The following guidelines apply to business applications created by Sitecore for release as part of the Sitecore platform.
@@ -11,7 +11,7 @@ The following guidelines apply to business applications created by Sitecore for 
 
 1. If an existing component comes close to your application's requirements, but does not have a specific behavior your application requires, contact the UX team and SPEAK product manager with a ***change request***.
 
-1. If your change request is rejected, your application must use the existing components. The UX team and SPEAK product manager will provide guidance. 
+1. If your change request is rejected, your application must use the existing components. The UX team and SPEAK product manager will provide guidance.
 
 1. If your change request is approved, you may be asked to create a local custom component to implement the required behavior locally, either to allow progress on your application while the SPEAK team implements the change, or to contribute your implementation of the change to the BCL after approval of the implementation by the SPEAK gatekeeper.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Guidelines for All Languages
+title: All language styling
 ---
 
 The following guidelines apply to all coding languages (.cs, .cshtml, .css, .less, .js, .ts...).

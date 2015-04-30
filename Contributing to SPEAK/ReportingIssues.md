@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reporting Issues
+title: Reporting issues
 ---
 
 If you encounter issues, please tell us!

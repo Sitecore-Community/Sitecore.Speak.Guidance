@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Component Parameters Template Guidelines
+title: Parameters template
 ---
 
 

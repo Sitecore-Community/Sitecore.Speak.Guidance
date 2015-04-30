@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page Definition Conventions
+title: Page definition conventions
 ---
 
 

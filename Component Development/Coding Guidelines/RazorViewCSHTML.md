@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Guidelines for Razor Views
+title: Razor View (CSHTML)
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Guidelines for Stylesheets
+title: StyleSheets (CSS and Less)
 ---
 
 The following guidelines apply to CSS and Less for components.

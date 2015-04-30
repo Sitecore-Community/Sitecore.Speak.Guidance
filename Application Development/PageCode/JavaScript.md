@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Guidelines for JavaScript
+title: JavaScript
 ---
 
 The following guidelines apply to JavaScript for PageCode.
