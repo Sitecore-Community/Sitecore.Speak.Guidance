@@ -11,7 +11,7 @@ The following guidelines apply to applications *created by Sitecore for release 
 
 	+ **UTF.SPEAK** is based on **.NET UTF**.
 	+ **UTF.SPEAK** uses [Selenium WebDriver](http://docs.seleniumhq.org/) to provide support for cross-browser testing.  
-.
+
 
 - Use the **NUnit** testing framework (other frameworks, such as MSTest and XUnit, may work but are not officially supported).
 
@@ -25,11 +25,11 @@ The following guidelines apply to applications *created by Sitecore for release 
 
 ####SPEAK Application Wrapper Project
 
-An "Application Wrapper" project uses SPEAK Component wrappers from UTF.SPEAK simulate user behaviour.  
+An "Application Wrapper" project uses SPEAK Component wrappers from UTF.SPEAK to simulate user behaviour.  
 
 - Create a (.Net Framework v4.0+) C# Class Library project for your Application Wrapper project.
 
-- Reference the `UTF.dll` and `UTF.SPEAK.dll`.
+- Reference the `UTF.dll` and the `UTF.SPEAK.dll`.
 
 - If your application contains custom components that require custom component wrappers, add a reference to the `WebDriver.dll` and `WebDriver.Support.dll`.
 
@@ -43,7 +43,7 @@ An "Application Wrapper" project uses SPEAK Component wrappers from UTF.SPEAK si
 
 - Create an "application wrapper" for each page in your application.
 
-- Use either **`Page`** or **`FramePage`** as a base class for your application wrapper. 
+- Use either **`Page`** or **`FramePage`** as a base class for your application wrapper.
 
 	+ For pages which open in a page use the **`Page`** class.
 	+ For pages which open in an iframe use the **`FramePage`** class.  
@@ -54,7 +54,7 @@ An "Application Wrapper" project uses SPEAK Component wrappers from UTF.SPEAK si
 	+ All SPEAK components in the standard component library have UTF.SPEAK component wrapper.  
 .
 
-- To initialize a SPEAK component wrapper on a page use the `SpeakRepository.Instance.GetControl<T>()` method or the `Driver.GetSpeakControl<T>()` method. 
+- To initialize a SPEAK component wrapper on a page use the `SpeakRepository.Instance.GetControl<T>()` method or the `Driver.GetSpeakControl<T>()` method.
 For example:
 
         public SpeakAdvancedExpander AdvancedExpander
@@ -62,26 +62,26 @@ For example:
             get { return  SpeakRepository.Instance.GetControl<SpeakAdvancedExpander>(); }
         }
 
-- Use the SPEAK component's hierarchy scheme to locate nested controls. 
+- Use the SPEAK component's hierarchy scheme to locate nested controls.
 
 	+ To work with nested controls use `NestedControls<T>()` method:
- 
+
      `AdvancedExpander.GetNestedControl<SpeakListControl>()`
 
 - Use the SPEAK component wrapper's properties and methods to interact with the SPEAK component on the page.
-  
+
 - Implement custom methods to simulate user activities on the page.
 
-- Use `Context.HelperService` to work with the Sitecore API. 
+- Use `Context.HelperService` to work with the Sitecore API.
 
 ####Application Test Project Setup
 
-An Application Test Project contains the UI auto-test for the SPEAK application. 
-It uses `UTF.dll`, `UTF.SPEAK.dll`, and Speak Application wrapper .dll. 
+An Application Test Project contains the UI auto-test for the SPEAK application.
+It uses `UTF.dll`, `UTF.SPEAK.dll`, and Speak Application wrapper .dll.
 
 - Create a (.Net Framework v4.0+) C# Class Library project for your Application Test project.
 
-- Reference the `UTF.dll` and `UTF.SPEAK.dll`.
+- Reference  `UTF.dll` and `UTF.SPEAK.dll`.
 
 - Reference the SPEAK Application Wrapper .dll you created (described above).
 
@@ -97,6 +97,4 @@ It uses `UTF.dll`, `UTF.SPEAK.dll`, and Speak Application wrapper .dll.
 
 - Define test suite behavior using `[TestFixture(BrowserType.Browser)]`  attributes.
 
-- Define an App.config file with instance name, browsers to run, HelperWebService folder, screen shot folder. 
-  
-
+- Define an App.config file with instance name, browsers to run, HelperWebService folder, screen shot folder.

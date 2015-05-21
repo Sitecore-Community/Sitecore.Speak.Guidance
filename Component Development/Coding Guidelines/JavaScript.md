@@ -1,50 +1,34 @@
 ---
 layout: default
 title: Code Guidelines for JavaScript
---- 
+---
 
 The following guidelines apply to JavaScript for components.
 
-## General Guidelines 
+## General guidelines
 
 - Follow the All Language Styling guidelines.
-
-- Avoid exposing the Global Object.
-
+- Avoid exposing the Global object.
     + Do not use the Window object.  
     + Use RequireJS to express dependencies between JavaScript modules.  
-.
 - Use regular assignment to assign value to properties.
-
     + Get and Set work, but are not as readable.  
-.
 - Use the $ prefix for jQuery objects.
-
 - Use camelCase when naming functions and variables
-
 - Comment all code using JSDoc style.
-
 - Do NOT check in "commented out" code.
-
 - Verify usage of "this" in event handlers and callback functions.
+- Use Speak handler to reference assets rather than direct URLs.
 
-- Use Speak handler to reference assets rather than direct urls.
 
-
-## Component-Specific Guidelines 
+## Component-Specific Guidelines
 
 - The model should expose all appropriate parameters.
-
 - Declare all public properties in the model's `initialize()` method.
-
 - Since manipulating the DOM is slow, always separate DOM manipulation code from other code and ensure that you manipulate the DOM only once.
-
 - Create helper functions for manipulating the DOM.
-
 - Use properties when data binding can express a change, and/or to express values in the components parameters item.
-
 - Use events when unable to use data binding or require more complex processing than data binding supports.
-
 - Code must pass JSHint validation using the following configuration:
 
 ```
@@ -67,9 +51,7 @@ The following guidelines apply to JavaScript for components.
         browser: true,
         expr: "warn"
       }
-``` 
+```
 
 - Only reference components from PageCode or other components.
-
   + Use an event emitter to communicate between a component and a custom module.
-

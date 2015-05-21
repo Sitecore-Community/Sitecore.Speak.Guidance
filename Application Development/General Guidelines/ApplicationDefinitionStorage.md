@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Application Definition Storage
+title: Application definition storage
 ---
 
 The following guidelines apply to business applications created by Sitecore for release as part of the Sitecore platform.
 
-## Application Definition Items ##
+## Application definition items ##
 
 1. Whenever possible, keep all definition items for an application in a single folder. This includes all page definition items, templates, component settings items, and so on.  Make exceptions only when required by Sitecore, such as for dictionary definition items.
 
@@ -23,7 +23,7 @@ The following guidelines apply to business applications created by Sitecore for 
 
 1. Add an application shortcut that links to the application dashboard page to the Launchpad with a UX approved icon and title.
 
-## Application Definition Files ##
+## Application definition files ##
 
 1. Create a folder with the name of your application underneath the **...\Website\sitecore\shell\client\Applications** folder.
 

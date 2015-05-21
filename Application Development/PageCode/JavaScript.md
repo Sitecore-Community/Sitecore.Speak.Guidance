@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Code Guidelines for JavaScript
---- 
+---
 
 The following guidelines apply to JavaScript for PageCode.
 
-## General Guidelines 
+## General Guidelines
 
 - Follow the All Language Styling guidelines.
 
@@ -13,9 +13,8 @@ The following guidelines apply to JavaScript for PageCode.
 
 - Use camelCasing when naming new files.
 
-- Comment all code using JSDoc style.
+- Use JSDoc style for all code comments.
 
 - Do NOT check in "commented out" code.
 
-- Use standard components rather than calling the SPEAK Core API (to maximize reuse).  For example, use the LoadOnDemandPanel rather than calling InsertRendering.
-
+- Use standard components instead of calling the SPEAK Core API (to maximize reuse).  For example, use the **LoadOnDemandPanel** rather than call _InsertRendering_.
