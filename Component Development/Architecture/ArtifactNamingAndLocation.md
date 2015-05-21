@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Artifact Naming and Location
+title: Component definition storage
 ---
 
 The following guidelines apply to all components.

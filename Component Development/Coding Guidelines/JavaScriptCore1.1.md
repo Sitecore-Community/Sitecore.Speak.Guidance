@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Guidelines for JavaScript (Core 1.1 only)
+title: JavaScript for Core 1.1
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Component Definition Item Guidelines
+title: Definition items
 ---
 
 The following guidelines apply to all components.

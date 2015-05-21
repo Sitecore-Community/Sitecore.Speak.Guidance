@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Baseline Component Functionality
+title: Baseline functionality
 ---
 
 

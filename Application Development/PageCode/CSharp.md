@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Guidelines for C#
+title:C#
 ---
 
 The following guidelines apply to C# for components.

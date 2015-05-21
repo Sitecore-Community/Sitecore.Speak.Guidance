@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subpage Definition Conventions
+title: Subpage definition items
 ---
 
 The following guidelines apply to business applications created by Sitecore for release as part of the Sitecore platform.

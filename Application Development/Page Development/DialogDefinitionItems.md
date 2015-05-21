@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dialog Definition Conventions
+title: Dialog definition conventions
 ---
 
 The following guidelines apply to dialogs *created by Sitecore for release as part of the Sitecore platform*.
